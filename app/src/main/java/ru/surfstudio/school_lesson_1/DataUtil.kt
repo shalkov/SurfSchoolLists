@@ -1,7 +1,7 @@
 package ru.surfstudio.school_lesson_1
 
 /**
- * Тестовые данные
+ * Метод возвращает список с тестовыми данными
  */
 fun getTestData(): List<DataModel> {
     return listOf(

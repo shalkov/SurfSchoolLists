@@ -10,6 +10,9 @@ import androidx.recyclerview.widget.RecyclerView
 import ru.surfstudio.school_lesson_1.DataModel
 import ru.surfstudio.school_lesson_1.R
 
+/**
+ * Адаптер для RecyclerView
+ */
 class MainAdapter : RecyclerView.Adapter<MainAdapter.Holder>() {
 
     var onClickListener: ((DataModel) -> Unit) = {}
